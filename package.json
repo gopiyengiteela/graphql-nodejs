@@ -1,0 +1,35 @@
+{
+  "name": "graphql-nodejs",
+  "version": "1.0.0",
+  "description": "GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopiyengiteela/graphql-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopiyengiteela/graphql-nodejs/issues"
+  },
+  "homepage": "https://github.com/gopiyengiteela/graphql-nodejs#readme",
+  "dependencies": {
+    "casual": "^1.6.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.15",
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.27",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.3.4",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
